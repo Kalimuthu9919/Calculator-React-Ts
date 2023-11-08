@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: rgb(245, 242, 242);
+}
+
+.calculator {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+form div button,
+input {
+  border: none;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  background-color: rgb(127, 127, 186);
+  margin: 2px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+}
+form div button[type="button"]:hover {
+  background: blueviolet;
+}
+form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+}
+form .display input {
+  text-align: end;
+  flex: 1;
+  font-size: 25px;
+  padding: 5px 10px;
+}
+form .equal {
+  width: 122px;
+}
